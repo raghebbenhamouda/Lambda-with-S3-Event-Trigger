@@ -17,6 +17,6 @@ def lambda_handler(event, context):
     print(payload_str)
 
     response = client.publish(
-    TopicArn='arn:aws:sns:eu-central-1:477886346812:LambdaTopi',
+    TopicArn='arn:aws..',
     Message= payload_str,
     Subject='My Lambda S3 event')
