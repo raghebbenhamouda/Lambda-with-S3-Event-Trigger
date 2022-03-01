@@ -65,7 +65,7 @@ In the output under "FunctionArn", copy the function ARN to a text file for late
 Add Lambda permission, replacing <S3_BUCKET_NAME> with the S3 bucket name provided on the lab credentials page:
 
 `aws lambda add-permission --action lambda:InvokeFunction --principal s3.amazonaws.com --statement-id LabS3Trigger --function-name my-lambda --source-arn arn:aws:s3:::<S3_BUCKET_NAME>`
-Enable and Add Notification Configuration to the S3 Bucket
+### Enable and Add Notification Configuration to the S3 Bucket
 
 Open the bucket-trigger-notification.json file:
 
