@@ -2,7 +2,7 @@
     "LambdaFunctionConfigurations": [
         {
           "Id": "my-lambda-function-s3-event-configuration",
-          "LambdaFunctionArn": "arn:aws:lambda:eu-central-1:477886346812:function:my-lambda",
+          "LambdaFunctionArn": "arn:..",
           "Events": [ "s3:ObjectCreated:Put" ]
         }
       ]
